@@ -6,7 +6,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 	<div id="logos">
-		<div style="position:absolute;left:<%= logoleftpos%>px;top:108px;z-index:5;">
+		<div style="position:absolute;left:<%= logoleftpos%>px;top:180px;z-index:5;">
             <table width="80" border="0" cellpadding="0" cellspacing="5">
 		        <tr><td align="middle" class="smallbodytext">SDSS is <br>supported by</td></tr>
 		        <tr><td align="middle"><a href="http://www.sloan.org"><img src="../images/logo_sloan.jpg" width="48" height="48" border="0"></a></td></tr>
@@ -18,7 +18,7 @@
 		        <tr><td align="middle"><a href="http://research.microsoft.com/"><img src="../images/logo_ms.jpg" width="64" height="21" border="0"></a></td></tr>
             </table>
         </div>
-        <div style="position:absolute;left:<%= logoleftpos%>px;top:430px;z-index:5;">
+        <div style="position:absolute;left:<%= logoleftpos%>px;top:500px;z-index:5;">
             <table width="80" border="0" cellpadding="0" cellspacing="0">
 		        <tr><td><hr class="hrule"></td></tr>
   		        <tr><td>		

@@ -509,7 +509,7 @@ TH
     text-transform:uppercase;
     color:white;
     font-size:16pt;
-    vertical-align:middle;
+    vertical-align:top;
 }
 .bigsitetitle
 {
@@ -524,7 +524,8 @@ TH
 }
 #oldversion p
 {
-    color:yellow;
-    margin-left:4px;
-    
+    padding-left:10px;
+    font-style:italic;
+    font-weight:bold;
+/*    border:5px solid red; */
 }

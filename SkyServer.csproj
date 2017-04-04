@@ -439,6 +439,7 @@
     <Content Include="en\images\imageright1.png" />
     <Content Include="en\images\imageright2.png" />
     <Content Include="en\images\imageright3.png" />
+    <Content Include="en\images\imageright4.jpg" />
     <Content Include="en\images\mark.gif" />
     <Content Include="en\images\new_1px_trans.gif" />
     <Content Include="en\images\new_astronomy_1.jpg" />
@@ -2101,6 +2102,7 @@
     <Content Include="images\flag_jp.gif" />
     <Content Include="images\flag_sp.gif" />
     <Content Include="images\flag_us.gif" />
+    <Content Include="images\idies.png" />
     <Content Include="images\jpg_icon.jpg" />
     <Content Include="images\logo_energy.jpg" />
     <Content Include="images\logo_hp.jpg" />
@@ -2111,6 +2113,7 @@
     <Content Include="images\logo_nsf.jpg" />
     <Content Include="images\logo_sloan.jpg" />
     <Content Include="images\pdf_icon.gif" />
+    <Content Include="images\sign-out.png" />
     <Content Include="images\swf_icon.jpg" />
     <Content Include="images\tick.GIF" />
     <Content Include="images\tick.jpg" />
