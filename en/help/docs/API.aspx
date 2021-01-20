@@ -83,7 +83,7 @@
 	        %> 
 	        </table>
             <br><span>Example:
-                <pre><a target="api"  class='sml' href="<%=globals.WSGetJpegUrl%>?ra=114.82991&dec=10.91817&width=512&height=512&opt=OG"><%=globals.WSGetJpegUrl%>?ra=224.5941&dec=-1.09&width=512&height=512&opt=OG </a></pre>
+                <pre><a target="api"  class='sml' href="<%=globals.WSGetJpegUrl%>?ra=184.9511&dec=-0.8754&scale=0.4&height=512&width=512&opt=GO"><%=globals.WSGetJpegUrl%>?ra=184.9511&dec=-0.8754&scale=0.4&height=512&width=512&opt=GO </a></pre>
                 </span>        
         <hr>
         <h4>2. <b>GET or POST</b>      /getJpegCodec</h4>
@@ -526,8 +526,8 @@
 	can be sent to the printer. The printed image is always inverted for better looking
 	prints.
 	<p>You may jump directly to a particular location with the navigation tool using:
-	<pre><a target="api"  class='sml' href="<%=url%>/tools/chart/chart.aspx?ra=114.82991&dec=10.91817&scale=0.3&opt=GO"><%=url%>/tools/chart/chart.aspx?ra=184.9511&dec=-0.8754&opt=GO</a></pre>
-	where ra is Right Ascension in degrees, dec is Declination in degrees,<br>
+	<pre><a target="api"  class='sml' href="<%=url%>/tools/chart/image.aspx?ra=184.9511&dec=-0.8754&scale=0.4&height=512&width=512&opt=GO"><%=url%>/tools/chart/image.aspx?ra=184.9511&dec=-0.8754&scale=0.4&height=512&width=512&opt=GO</a></pre>
+	where ra is Right Ascension in degrees, dec is Declination in degrees, height and width are in pixels,<br>
 	scale is the scale of the image in arcsec per pixel, 0.4 is default<br> 
 	opt is a string of characters, as listed above for the cutout service.
 	<p>
@@ -540,7 +540,7 @@
 	or on individual objects. A short list of the basic properties and a magnified thumbnail \
 	image of the object nearest to the selected point is then displayed. 
 	<p>You may jump directly to a particular location with the navigation tool using:
-	<pre><a target="api"  class='sml' href="<%=url%>/tools/chart/navi.aspx?ra=184.9511&dec=-0.8754&scale=0.3&opt=GO"><%=url%>/tools/chart/navi.aspx?ra=184.9511&dec=-0.8754&opt=GO</a></pre>
+	<pre><a target="api"  class='sml' href="<%=url%>/tools/chart/navi.aspx?ra=184.9511&dec=-0.8754&scale=0.4&opt=GO"><%=url%>/tools/chart/navi.aspx?ra=184.9511&dec=-0.8754&scale=0.4&opt=GO</a></pre>
 	where ra is Right Ascension in degrees, dec is declination in degrees,<br>
 	scale is the scale of the image in arcsec per pixel, 0.4 is default<br> 
 	opt is a string of characters, as seen above.
