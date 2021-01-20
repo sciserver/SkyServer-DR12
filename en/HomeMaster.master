@@ -55,10 +55,6 @@
             </tr>
             <tr>
                 <td colspan="2">
-                  <div id="oldversion">
-                       <p>This is Data Release <%=globals.ReleaseNumber%>. Go to the latest 
-                           <a href="http://skyserver.sdss.org/public/" style="font-style:inherit;">data release</a>.</p>
-                  </div>
                 </td>
             </tr>
           </table>
